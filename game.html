@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Home</title>
+        <meta charset="UTF-8">  
+    </head>
+    <body>
+        <a href="./index.html">Home</a>
+        <img src="/images/waterDroplet.png" alt="Water Droplet">
+
+        <div class="points" id="pointsDisplay">Points: 0</div>
+        <div>
+            <label for="betAmount">Enter Points to Bet: </label>
+            <input class="input" type="number" id="betAmount" min="1" placeholder="Bet amount">
+        </div>
+        <button class="button" onclick="bet()">Bet on Coin Flip</button>
+    <button class="button" onclick="clearPoints()">Clear Points</button>
+
+    <script src="script.js"></script>
+    </body>

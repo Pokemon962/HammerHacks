@@ -1,0 +1,14 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: verdana, sans-serif;
+    font-size: 20px;
+    background-image: url("/images/backgroundWater.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    max-width: 100%; /* Ensures the image is responsive */
+    max-height: 100%; /* Ensures the image fits within the viewport */
+  }
